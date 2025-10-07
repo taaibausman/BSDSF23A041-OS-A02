@@ -1,9 +1,8 @@
-# Makefile for ls re-engineering project (Feature 1)
+# Makefile for ls re-engineering project (Feature 1-3)
 
 # Compiler and flags
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11 -D_DEFAULT_SOURCE
-
 
 # Directories
 SRC_DIR = src
@@ -11,10 +10,9 @@ OBJ_DIR = obj
 BIN_DIR = bin
 
 # Files
-SRC = $(SRC_DIR)/ls-v1.1.0.c
-OBJ = $(OBJ_DIR)/ls-v1.1.0.o
+SRC = $(SRC_DIR)/ls-v1.2.0.c
+OBJ = $(OBJ_DIR)/ls-v1.2.0.o
 TARGET = $(BIN_DIR)/ls
-
 
 # Default rule
 all: $(TARGET)
